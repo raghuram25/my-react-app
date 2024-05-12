@@ -21,10 +21,10 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          count is stage 2{count}
         </button>
         <button onClick={() => setMyCount((mycount) => mycount + 1)}>
-          My count is  after git{mycount}
+          My count is  after git commit{mycount}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
